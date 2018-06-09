@@ -11,12 +11,12 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g dashcore-node
-dashcore-node create mynode
+npm install -g @flus38765/aither-node
+aither-node create mynode
 cd mynode
-dashcore-node install @dashcore/insight-api
-dashcore-node install @dashcore/insight-ui
-dashcore-node start
+aither-node install @flus38765/aither-insight-api
+aither-node install @flus38765/aither-insight-ui
+aither-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
