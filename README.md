@@ -1,21 +1,21 @@
 # Insight UI
 
-A Dash blockchain explorer web application service for [Dashcore Node](https://github.com/dashevo/dashcore-node) using [Insight API](https://github.com/dashevo/insight-api).
+A Dash blockchain explorer web application service for [aither Node](https://github.com/aithercore/aither-node) using [Insight API](https://github.com/aithercore/aither-insight-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Dashcore](https://github.com/dashevo/dashcore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [aither](https://github.com/aithercore/aither).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g @flus38765/aither-node
+npm install -g @aithercore/aither-node
 aither-node create mynode
 cd mynode
-aither-node install @flus38765/aither-insight-api
-aither-node install @flus38765/aither-insight-ui
+aither-node install @aithercore/aither-insight-api
+aither-node install @aithercore/aither-insight-ui
 aither-node start
 ```
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/dashevo/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/dashevo/insight-api).
+For more details about the [Insight API](https://github.com/aithercore/aither-insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/aithercore/insight-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Dash GitHub repository](https://github.com/dashevo/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI Dash GitHub repository](https://github.com/aithercore/aither-insight-ui).
 
 
 ## License
